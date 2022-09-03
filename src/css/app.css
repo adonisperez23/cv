@@ -1,1 +1,5 @@
 /* app global css */
+h4,h5,h6,hr{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

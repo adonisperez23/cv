@@ -1,17 +1,48 @@
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    >
-  </q-page>
+  <div class="bg-cyan-1">
+    <div class="row">
+      <Title/>
+      <Photo/>
+    </div>
+    <hr>
+    <AcademicFormation/>
+    <hr>
+    <Experience/>
+    <hr>
+    <Courses/>
+    <hr>
+    <Skills/>
+    <hr>
+  </div>
 </template>
 
 <script>
 import { defineComponent } from 'vue'
+import Photo from 'components/Photo.vue'
+import Title from 'components/Title.vue'
+import AcademicFormation from 'components/AcademicFormation.vue'
+import Experience from 'components/Experience.vue'
+import Courses from 'components/Courses.vue'
+import Skills from 'components/Skills.vue'
 
 export default defineComponent({
-  name: 'IndexPage'
+  name: 'IndexPage',
+  components: {
+    Photo,
+    Title,
+    AcademicFormation,
+    Experience,
+    Courses,
+    Skills
+  }
 })
 </script>
+<style scoped>
+  hr{
+    height: 5px;
+    background-color: black;
+  }
+  div{
+    margin-left: 10px;
+  }
+</style>
