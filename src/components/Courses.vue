@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="col">
     <h5 class="text-deep-purple-6">Cursos y talleres</h5>
     <span>
       <strong>PLATZI</strong>

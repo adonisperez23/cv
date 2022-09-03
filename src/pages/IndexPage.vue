@@ -9,9 +9,10 @@
     <hr>
     <Experience/>
     <hr>
-    <Courses/>
-    <hr>
-    <Skills/>
+    <div class="row">
+      <Courses/>
+      <Skills/>
+    </div>
     <hr>
   </div>
 </template>

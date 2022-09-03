@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="col">
     <h5 class="text-deep-purple-6">Conocimientos y Habilidades</h5>
     <ul>
       <li>Proactivo</li>
